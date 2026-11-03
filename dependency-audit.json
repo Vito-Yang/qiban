@@ -1,0 +1,18 @@
+{
+  "affectedRoots": [
+    "@modelcontextprotocol/client",
+    "fflate",
+    "undici",
+    "zod"
+  ],
+  "checkedAt": "2026-11-03",
+  "vulnerabilities": {
+    "info": 0,
+    "low": 0,
+    "moderate": 10,
+    "high": 187,
+    "critical": 0,
+    "total": 197
+  },
+  "note": "Transitive dependencies from pinned DeepSeek Harness runtime. Local-only MVP; review and update before deployment."
+}
