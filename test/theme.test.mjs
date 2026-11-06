@@ -59,6 +59,7 @@ test('homepage palette is blue and the former green accents are gone',()=>{
  assertContrast('primary button label',rule('.primary').match(/color\s*:\s*(#[0-9a-f]{3,8})/i)?.[1]||'#ffffff',background('.primary'),4.5);
  assertContrast('send button label','#ffffff',background('#send'),4.5);
  assertContrast('today note text',foreground('.brief p'),background('.brief'),4.5);
+ assertContrast('composer placeholder',foreground('textarea::placeholder'),'#ffffff',4.5);
  assertContrast('card copy',foreground('.card p'),background('.card'),4.5);
  assertContrast('Markdown links',foreground('.markdown-body a'),'#ffffff',4.5);
  assertContrast('error message',foreground('#error'),background(':root'),4.5);
